@@ -1,6 +1,6 @@
 import { test, expect } from "playwright/test";
 
-test("test", async ({ page }) => {
+test("Test Sign document functionality", async ({ page }) => {
   await page.goto(
     "https://staging.scrive.com/t/9221714692410699950/7348c782641060a9"
   );
